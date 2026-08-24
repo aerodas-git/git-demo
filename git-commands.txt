@@ -13,6 +13,7 @@ git diff 	--> muestra la diferencia o cambios de los archivos
 git log 	--> ver el historial
 git log --oneline --> muestra el resumen de forma compacta
 git show HEAD~1: nombreArchivo.txt  --> muestra lo que estaba en "1" commit antes al actual
+git diff HEAD~1 HEAD --> muestra la diferencia entre las ultimas 2 versiones
 
 
 git add . 	--> agrega y prepara archivos todo o puede ser por nombre de archivo puntual
