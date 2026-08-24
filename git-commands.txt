@@ -1,0 +1,11 @@
+git config --global user.name "aerodas"
+git config --global user.email "arodasp@gmail.com"
+
+//verificar nuestras configuraciones
+git config --global --list
+git config --list
+
+//inicializar un repositorio
+git init
+git status
+
