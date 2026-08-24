@@ -1,3 +1,6 @@
+git --versión
+git -v
+
 git config --global user.name "aerodas"
 git config --global user.email "arodasp@gmail.com"
 
@@ -5,7 +8,11 @@ git config --global user.email "arodasp@gmail.com"
 git config --global --list
 git config --list
 
-//inicializar un repositorio
-git init
-git status
 
+git init   --> inicializar un repositorio local
+git status  --> ver el estado actual
+
+git add . --> agrega y prepara archivos todo o puede ser por nombre de archivo puntual
+git commit -m "descripcion" --> guarda
+
+git log --> ver el historial
