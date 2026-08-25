@@ -12,8 +12,11 @@ git status  		--> ver el estado actual, ve si hay cambios
 git diff 		--> muestra la diferencia o cambios de los archivos
 git log 		--> ver el historial
 git log --oneline 	--> muestra el resumen de forma compacta
-git show HEAD~1: nombreArchivo.txt  --> muestra lo que estaba en "1" commit antes al actual
+git show HEAD~1:nombreArchivo.txt  --> muestra lo que estaba en "1" commit antes al actual
+git show HEAD:nombreArchivo.txt		--> ver ultimo archivo
+git show f898e57:git-commands.txt	--> ver archivo de un commit especifico
 git diff HEAD~1 HEAD 	--> muestra la diferencia entre las ultimas 2 versiones
+
 
 git rm --cached <NombreArchivo>	    --> Para guardar un archivo que esta en .gitignore
 git commit -m "Stop tracking file"  --> se guarda el archivo con formato dentro del .gitignore
