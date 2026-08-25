@@ -30,10 +30,11 @@ git checkout feature-1    	--> cambia a la rama feature-1
 git merge feature-aerodas 	--> desde el master se hace el merge de la rama feature-aerodas
 git branch -d feature-aerodas 	--> borrar una rama "feature-aerodas"
 
-git remote add origin https://github.com/aerodas-git/git-demo.git
+git remote add origin https:url	--> -u solo la 1ra vez
 git remote -v
-git branch -M main
+git branch -M main		--> -u solo la 1ra vez
 git push -u origin main  	--> -u solo la 1ra vez
+
 git push			--> usa desde la 2da vez
 
 
