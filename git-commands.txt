@@ -41,6 +41,8 @@ git push			--> usa desde la 2da vez
 *******Clonar del remoto a un local, abre una terminal desde la carpeta donde se va a clonar
 git clone url
 
-git fetch --> para ver que ha cambiado
+git fetch --> para ver que ha cambiado en el Github
+git merge --> descarga del Github al local
+git pull --> fetch + pull
 
 
