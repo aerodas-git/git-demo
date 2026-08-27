@@ -50,3 +50,5 @@ git log --oneline HEAD origin/main  --> ver el log en una sola linea del remoto
 git log HEAD origin/main            --> Ver el log completo del remoto
 git diff main origin/main          --> ver diferencias del local con el remoto
 
+
+pruebas
