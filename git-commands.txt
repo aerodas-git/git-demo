@@ -20,13 +20,14 @@ git diff HEAD~1 HEAD 	--> muestra la diferencia entre las ultimas 2 versiones
 
 git rm --cached <NombreArchivo>	    --> Para guardar un archivo que esta en .gitignore
 git commit -m "Stop tracking file"  --> se guarda el archivo con formato dentro del .gitignore
-
+************************
 git add . 			--> agrega y prepara archivos todo o por nombre de archivo
 git commit -m "descripcion" 	--> guarda
-
-git branch 		  	--> muestra las ramas en el proyecto
+************************
+git branch 		  	--> lista las ramas en el proyecto
 git branch feature-1 	  	--> crea la rama
-git checkout feature-1    	--> cambia a la rama feature-1
+git checkout feature-1    	--> cambia a la rama feature-1 también $ git switch feature-1
+git switch -c <rama>		--> cambia y crea la rama
 git merge feature-aerodas 	--> desde el master se hace el merge de la rama feature-aerodas
 git branch -d feature-aerodas 	--> borrar una rama "feature-aerodas"
 
