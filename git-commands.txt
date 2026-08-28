@@ -47,7 +47,7 @@ git merge --> descarga del Github al local
 git pull --> fetch + merge
 
 git fetch origin
-git reset --hard origin/feature-prueba --> para sobreescribir todo el remoto a la rama local
+git reset --hard origin/feature-prueba --> para sobreescribir todo el remoto-main a la rama local
 
 git log --oneline HEAD origin/main  --> ver el log en una sola linea del remoto
 git log HEAD origin/main            --> Ver el log completo del remoto
