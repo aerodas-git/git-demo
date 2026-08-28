@@ -44,7 +44,7 @@ git clone url
 
 git fetch --> para ver que ha cambiado en el Github
 git merge --> descarga del Github al local
-git pull --> fetch + pull
+git pull --> fetch + merge
 
 git log --oneline HEAD origin/main  --> ver el log en una sola linea del remoto
 git log HEAD origin/main            --> Ver el log completo del remoto
